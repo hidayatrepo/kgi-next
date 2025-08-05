@@ -9,12 +9,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className="bg-[#0e0e0e] text-white min-h-screen font-sans">
+    <main className={`${inter.className} bg-[#0e0e0e] text-white min-h-screen font-sans`}>
       <div className="max-w-[1200px] mx-auto px-5 py-10">
         <header className="flex justify-between items-center py-8">
           <div className="flex items-center gap-4">
             <Image src="/logo_kgi.png" alt="Logo KGI" width={100} height={100} />
-            {/* <h1 className="text-3xl font-bold">Karet Gelang Indonesia</h1> */}
           </div>
           <nav className="space-x-6 text-gray-400 font-medium">
             <a href="#about" className="hover:text-white">About</a>
@@ -72,7 +71,7 @@ export default function Home() {
         <section id="testimonials" className="py-20 text-center">
           <h3 className="text-3xl md:text-4xl font-bold mb-6">Customer <span className="bg-gradient-to-r from-[#F2082D] to-[#FF9A3C] text-transparent bg-clip-text">Testimonials</span></h3>
           <p className="text-gray-400 max-w-3xl mx-auto">
-            "Produk karet gelang dari KGI sangat kuat dan tahan lama! Saya telah menggunakannya untuk keperluan usaha kecil saya dan hasilnya luar biasa." – Ani, Jakarta
+            &quot;Produk karet gelang dari KGI sangat kuat dan tahan lama! Saya telah menggunakannya untuk keperluan usaha kecil saya dan hasilnya luar biasa.&quot; – Ani, Jakarta
           </p>
         </section>
 
