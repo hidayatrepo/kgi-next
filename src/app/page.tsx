@@ -14,7 +14,7 @@ export default function Home() {
         <header className="flex justify-between items-center py-8">
           <div className="flex items-center gap-4">
             <Image src="/logo_kgi.png" alt="Logo KGI" width={100} height={100} />
-            <h1 className="text-3xl font-bold">Karet Gelang Indonesia</h1>
+            {/* <h1 className="text-3xl font-bold">Karet Gelang Indonesia</h1> */}
           </div>
           <nav className="space-x-6 text-gray-400 font-medium">
             <a href="#about" className="hover:text-white">About</a>
