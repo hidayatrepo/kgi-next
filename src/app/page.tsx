@@ -92,7 +92,7 @@ export default function Home() {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-4">
-                  <h4 className="text-lg font-semibold text-white mb-2">Produk Karet Gelang {idx + 1}</h4>
+                  <h4 className="text-lg font-semibold text-white mb-2">Produk Karet Gelang Unch{idx + 1}</h4>
                   <p className="text-gray-400 mb-4 text-sm">Kuat, elastis, dan berkualitas ekspor. Tersedia dalam berbagai warna dan ukuran. Ideal untuk industri, rumah tangga, dan keperluan kerajinan tangan.</p>
                   <div className="flex justify-between">
                     <a href="#" className="text-[#F2082D] text-sm font-medium hover:underline">Shopee</a>
